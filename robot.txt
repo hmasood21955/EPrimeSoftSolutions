@@ -1,0 +1,20 @@
+# Allow all crawlers to index everything
+User-agent: *
+Disallow:
+
+# Block crawlers from accessing certain directories
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
+
+# Allow specific directories or files
+Allow: /public/
+Allow: /blog/
+Allow: /index.html
+Allow: /about.html
+Allow: /service.html
+Allow: /project.html
+Allow: /contact.html
+
+# Sitemap location (optional but recommended)
+Sitemap: https://www.eprimesoftsolutions.com/sitemap.xml
